@@ -6,12 +6,3 @@ read B
 echo -e "\033[1m SUMA final"
 expr $A + $B
 echo $expr
-
-age=41
-
-if [ $age -gt $expr ]
-   then 
-  echo "la edad es mayor" 
-   else
-  echo "la edad es menor"
-fi
