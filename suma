@@ -1,0 +1,17 @@
+#Script para realizar una suma
+echo "Ingrese un numero entero:"
+read A
+echo "Ingrese otro numero para la suma final:"
+read B
+echo -e "\033[1m SUMA final"
+expr $A + $B
+echo $expr
+
+age=41
+
+if [ $age -gt $expr ]
+   then 
+  echo "la edad es mayor" 
+   else
+  echo "la edad es menor"
+fi
